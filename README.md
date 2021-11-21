@@ -18,3 +18,6 @@ A ‘patients’ controller utilizing 4 RESTful endpoints:
 
 These endpoints are protected with Spring Security. The endpoints use an in-memory authentication mechanism. 
 Errors are handled when retrieving or deleting patients and an incorrect ID is used. Both error responses return a standard 404.
+
+## What's missing
+Given more time I would put more thought into seperating DAO from the DTOs. As well as impliment testing to help maintain the code and verify that everything works correctly. 
