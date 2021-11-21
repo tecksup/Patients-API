@@ -1,6 +1,7 @@
 package com.patients;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 @Entity
@@ -11,10 +12,13 @@ public class Patient {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @Column(name= "FIRSTNAME", length = 50)
+    @NotNull(message = "FirstName is mandatory")
     private String firstName;
     @Column(name= "LASTNAME", length = 50)
+    @NotNull(message = "LastName is mandatory")
     private String lastName;
     @Column(name= "DATEOFBIRTH")
+    @NotNull(message = "DateOfBirth is mandatory")
     private Date dateOfBirth;
 
     public Patient() {}
