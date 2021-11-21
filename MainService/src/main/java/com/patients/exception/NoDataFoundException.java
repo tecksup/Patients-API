@@ -1,4 +1,4 @@
-package com.patients;
+package com.patients.exception;
 
 public class NoDataFoundException extends RuntimeException {
 

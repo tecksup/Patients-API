@@ -10,6 +10,7 @@
       <module name="com.theater.rest-service.test" target="1.8" />
       <module name="rest-service-complete" target="1.5" />
       <module name="rest-service-initial" target="1.5" />
+      <module name="rest-service.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

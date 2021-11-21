@@ -1,11 +1,12 @@
 package com.patients.service;
 
-import com.patients.Patient;
-import com.patients.PatientNotFoundException;
-import com.patients.NoDataFoundException;
+import com.patients.exception.NoDataFoundException;
+import com.patients.exception.PatientNotFoundException;
+import com.patients.model.Patient;
 import com.patients.repository.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 
 @Service

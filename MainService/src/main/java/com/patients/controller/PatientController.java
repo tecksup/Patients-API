@@ -1,14 +1,13 @@
-package com.patients;
+package com.patients.controller;
 
-import java.util.List;
-
+import com.patients.model.Patient;
 import com.patients.service.IPatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-import javax.persistence.PostRemove;
+import java.util.List;
 
 @RestController @RequestMapping(value = "/patients")
 public class PatientController {
