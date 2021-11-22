@@ -20,4 +20,4 @@ These endpoints are protected with Spring Security. The endpoints use an in-memo
 Errors are handled when retrieving or deleting patients and an incorrect ID is used. Both error responses return a standard 404.
 
 ## What's missing
-Given more time I would put more thought into seperating DAO from the DTOs. As well as impliment testing to help maintain the code and verify that everything works correctly. 
+Given more time I would put more thought into seperating DAO from the DTOs. As well as impliment testing to help maintain the code and verify that everything works correctly. Input validation is another feature missing from the current build. 
